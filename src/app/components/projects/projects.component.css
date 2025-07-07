@@ -1,0 +1,137 @@
+/*  Estilos para los badges suaves */
+
+.badge-primary-soft {
+  background-color: #e0f0ff;
+  color: #0d6efd;
+}
+
+.badge-success-soft {
+  background-color: #e7f9ef;
+  color: #198754;
+}
+
+.badge-warning-soft {
+  background-color: #fff7e0;
+  color: #ffc107;
+}
+
+.badge-danger-soft {
+  background-color: #ffe5e5;
+  color: #dc3545;
+}
+.badge-purple-soft {
+  background-color: #f3e7ff;
+  color: #6f42c1;
+}
+
+.badge-sky-soft {
+  background-color: #e0f7ff;
+  color: #0dcaf0;
+}
+
+.badge-orange-soft {
+  background-color: #ffe9d6;
+  color: #fd7e14;
+}
+
+.badge-gray-soft {
+  background-color: #f0f0f0;
+  color: #6c757d;
+}
+
+.badge-brown-soft {
+  background-color: #f2e6e1;
+  color: #795548;
+}
+
+.badge-pulse:hover {
+  animation: pulse 2s infinite;
+  transform: scale(1.1);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(13, 110, 253, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(13, 110, 253, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(13, 110, 253, 0);
+  }
+}
+
+
+/*  Efectos Card */
+.card-pulse {
+  animation: pulse-card 2.5s infinite;
+}
+
+.card-pulse:hover {
+  transform: scale(1.03);
+  transition: all 0.3s ease;
+  box-shadow: 0 0 15px rgba(13, 110, 253, 0.4);
+}
+
+@keyframes pulse-card {
+  0% {
+    box-shadow: 0 0 0 0 rgba(13, 110, 253, 0.25);
+  }
+  70% {
+    box-shadow: 0 0 0 12px rgba(13, 110, 253, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(13, 110, 253, 0);
+  }
+}
+
+@keyframes pulse-card-gray {
+  0% {
+    box-shadow: 0 0 0 0 rgba(108, 117, 125, 0.3); /* #6c757d */
+  }
+  70% {
+    box-shadow: 0 0 0 12px rgba(108, 117, 125, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(108, 117, 125, 0);
+  }
+}
+
+.card {
+  border-radius: 0.75rem;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.card {
+  margin-left: 5px;
+  animation: fadeInUp 0.8s ease;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.card-glass {
+  background: rgba(255, 255, 255, 255);
+  backdrop-filter: blur(30px);
+  border-radius: 3rem;
+  border: 1px solid rgba(255, 255, 255, 255);
+  color:dimgray;
+}
+
+
+.card-gray {
+  animation: pulse-card-gray 2.5s infinite;
+  transition: all 0.3s ease;
+}
+
+.card-gray:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 15px rgba(108, 117, 125, 0.4);
+}

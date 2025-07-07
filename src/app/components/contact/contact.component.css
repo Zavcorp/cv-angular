@@ -1,0 +1,19 @@
+.contact-section {
+  background-color: #000;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 0%;
+}
+
+.contact-item {
+  transition: all 0.3s ease;
+}
+
+.contact-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(13, 110, 253, 0.4);
+  border-radius: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+

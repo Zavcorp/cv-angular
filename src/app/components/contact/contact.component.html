@@ -1,0 +1,56 @@
+<section id="contact" class="contact-section text-white py-2">
+  <div class="container-fluid px-4">
+    <!-- <h2 class="mb-5 fw-bold text-center fs-3">Contacto</h2> -->
+    <div class="row text-center g-3">
+      <div class="col-md-3 contact-item">
+        <i class="bi bi-telephone-fill fs-4 mb-2 d-block"></i>
+        <p class="fs-6 mb-0 text-white">+52 55 9164 1018</p>
+      </div>
+      <div class="col-md-3 contact-item">
+        <i class="bi bi-envelope-fill fs-4 mb-2 d-block"></i>
+        <p class="fs-6 mb-0">
+          <a href="#" data-bs-toggle="modal" data-bs-target="#contactModal" class="text-white text-decoration-none">zavcorp23&#64;gmail.com</a>
+          <!-- <a href="mailto:zavcorp23@gmail.com" class="text-white text-decoration-none">zavcorp23&#64;gmail.com</a> -->
+        </p>
+      </div>
+      <div class="col-md-3 contact-item">
+        <i class="bi bi-geo-alt-fill fs-4 mb-2 d-block"></i>
+        <p class="fs-6 mb-0 text-white">Ciudad de México</p>
+      </div>
+      <div class="col-md-3 contact-item">
+        <i class="bi bi-linkedin fs-4 mb-2 d-block"></i>
+        <p class="fs-6 mb-0">
+          <a href="https://linkedin.com/in/adrianzavaleta23" target="_blank" class="text-white text-decoration-none">linkedin.com/in/adrianzavaleta23</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Modal de contacto -->
+<div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content bg-dark text-white">
+      <div class="modal-header">
+        <h5 class="modal-title" id="contactModalLabel">Enviar mensaje</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body">
+        <form #contactForm="ngForm" (ngSubmit)="sendMessage()">
+          <div class="mb-3">
+            <label class="form-label">Para:</label>
+            <input type="email" class="form-control" value="zavcorp23@gmail.com" readonly>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Mensaje:</label>
+            <textarea class="form-control" [(ngModel)]="message" name="message" rows="3" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary w-100" [disabled]="!contactForm.form.valid">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+

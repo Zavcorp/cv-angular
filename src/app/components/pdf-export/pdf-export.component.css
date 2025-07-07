@@ -1,0 +1,10 @@
+.btn-export {
+  transition: all 0.3s ease;
+}
+
+.btn-export:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(7, 87, 206, 0.4);
+  border-radius: 0.5rem;
+  background-color: rgba(202, 38, 38, 0.849);
+}

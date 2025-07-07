@@ -1,0 +1,100 @@
+{
+  "HEADER": {
+    "LANG_SWITCH": "Versión en inglés",
+    "QR_CODE": "Ver CV en QR",
+    "QR_CODE2": "Escanea mi CV 📱",
+    "QR_CODE3": "Descarga QR",
+    "BOTON_CV": "Descargar CV",
+    "NAME": "Adrian Zavaleta",
+    "PROFESSION": "Desarrollador Web - Ingeniero en Sistemas Computacionales",
+    "LICENSE": "Cédula 7875436",
+    "MENU": {
+      "ABOUT": "Sobre mí",
+      "SKILLS": "Habilidades",
+      "PROJECTS": "Experiencia",
+      "CONTACT": "Contacto",
+      "LOGIN": "Login",
+      "LOGOUT": "Logout"
+    }
+  },
+  "ABOUT": {
+    "TITLE": "Sobre mí",
+    "DESCRIPTION": "Desarrollador web con más de 10 años de experiencia en .NET, C#, VB, HTML, CSS, JavaScript y jQuery. Apasionado por entregar software de alta calidad y aprender constantemente nuevas tecnologías. Buscando una oportunidad para desarrollar habilidades y progresar en mi carrera. Actualmente aprendiendo Angular, React, AWS y Azure, cursando una maestría en DevOps y Cloud."
+  },
+  "EDUCATION": {
+    "TITLE": "Formación",
+    "MASTER": "📚 Maestría en DevOps y Cloud",
+    "UNIR": "UNIR México (2024 - Cursando)",
+    "ENGINEERING": "🎓 Ingeniería en Sistemas Computacionales",
+    "ITSPR": "ITSPR (2006 - 2011)"
+  },
+  "SKILLS": {
+    "TITLE": "Habilidades",
+    "FRONTEND": "Front-End",
+    "BACKEND": "Back-End",
+    "OTHERS": "Diversos",
+    "PERSONAL": "Personales",
+    "BACKEND_LIST": [
+      "ASP.NET C#, VB",
+      "Web Services (REST)",
+      "MVC, Net Core",
+      "Node"
+    ],
+    "OTHERS_LIST": [
+      "Bases de Datos: SQL Server, Oracle, MySQL",
+      "Cloud: Azure , AWS",
+      "Managment Version: GIT, SVN, TFS, Postman",
+      "DevOps: Docker, Kubernetes, CI/CD"
+    ],
+    "PERSONAL_LIST": [
+      "🛠️ Resolución de problemas técnicos",
+      "🧠 Pensamiento analítico",
+      "🗣️ Comunicación efectiva",
+      "📚 Constante Actualización"
+    ]
+  },
+  "LANGUAGES": {
+    "TITLE": "Idiomas",
+    "SPANISH": "🗣️ Español - Nativo",
+    "ENGLISH": "🗣️ Inglés - Intermedio (B1)"
+  },
+  "COURSES": {
+    "TITLE": "Cursos y Certificaciones",
+    "LIST": [
+      "PL-SQL Oracle - Udemy 2024",
+      "GIT & GitHub - Udemy 2024",
+      "WEB API .NET - Udemy 2024",
+      "Scrum Fundamentals ID 924314",
+      "HTML5, CSS3, jQuery, C# - Auribox 2016"
+    ]
+  },
+  "INTERESTS": {
+    "TITLE": "Pasatiempos",
+    "TRAVEL": "Viajar",
+    "SPORT": "Deporte",
+    "HIKING": "Senderismo",
+    "DJ": "DJ / Música"
+  },
+  "EXPERIENCE": {
+    "TITLE": "Experiencia Profesional",
+    "WORK_3": {
+      "TITLE": "Support Engineer - SYE Software México",
+      "PERIOD": "2023 - Actualidad",
+      "DESCRIPTION": "Soporte y migración de aplicaciones web C# NET a nuevas tecnologías como Angular, NET Core MVC, así como mejoramiento de sitios web utilizando HTML5, CSS3, ES6, Bootstrap. En este tiempo se han logrado mejoras y optimizaciones importantes en procesos y diseños web que benefician al cliente en diversas aplicaciones.",
+      "TOOLS": "Herramientas"
+    },
+    "WORK_2": {
+      "TITLE": "Software Engineer - Softtek México",
+      "PERIOD": "2018 - 2022",
+      "DESCRIPTION": "Desarrollo de aplicaciones web utilizando C#, WebServices, JavaScript, ES6 LINQ, jQuery y Base de datos en Oracle 11 g, soporte a aplicativos NET 3.5 e inferiores y migraciones a frameworks superiores acorde a los requerimientos y necesidades, así como creación de servicios REST API NET.",
+      "TOOLS": "Herramientas"
+    },
+    "WORK_1": {
+      "TITLE": ".NET Developer - PEMEX",
+      "PERIOD": "2012 - 2018",
+      "DESCRIPTION": "Desarrollo de nuevos módulos y mantenimiento de plataforma web creada para el control de diversos procesos en las gerencias y coordinaciones de PEMEX. Durante este tiempo se lograron importantes avances en la actualización de la plataforma acorde a nuevas tecnologías emergentes (HTML 5 CSS 3 Bootstrap, JavaScript, etc. Análisis y desarrollo web en tecnologías NET (ASP NET, Webforms, VBasic, C#, Capas, MVC) y base de datos SQL Server, donde se diseñó desde cero una plataforma web para el control de contratos, procesos y diversas actividades en las coordinaciones de PEMEX. A lo largo de este tiempo se fueron creando módulos específicos acorde a las necesidades de las áreas administrativas y de procesos, logrando importantes avances en optimización de tiempos, además de que la interfaz fue teniendo cambios acordes a las tecnologías salientes.",
+      "TOOLS": "Herramientas"
+    }
+  }
+}
+

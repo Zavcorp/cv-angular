@@ -1,0 +1,127 @@
+<section id="education" class="container py-4">
+  <h3 class="text-primary mb-4">{{ 'EDUCATION.TITLE' | translate }}</h3>
+  <p class="list-group-item">{{ 'EDUCATION.MASTER' | translate }}<br/>{{ 'EDUCATION.UNIR' | translate }}</p>
+  <p class="list-group-item"><strong>{{ 'EDUCATION.ENGINEERING' | translate }}<br/>{{ 'EDUCATION.ITSPR' | translate }}</strong></p>
+</section>
+
+
+<section id="skills" class="container py-2">
+  <h3 class="text-primary mb-4">{{ 'SKILLS.TITLE' | translate }}</h3>
+  <div class="row">
+    <h5>{{ 'SKILLS.FRONTEND' | translate }}</h5>
+    <div class="d-flex flex-wrap gap-4">
+      <span class="badge badge-pulse bg-gray d-flex align-items-center p-2 shadow-sm" data-bs-toggle="tooltip" data-bs-placement="top" title="50%">
+        <img src="/img/skills/js.png" alt="JavaScript" class="me-2" style="width: 24px; height: 24px;">
+        <span>JavaScript</span>
+      </span>
+      <span class="badge badge-pulse bg-gray d-flex align-items-center p-2 shadow-sm"
+            data-bs-toggle="tooltip" data-bs-placement="top" title="40%">
+        <img src="/img/skills/angular.png" alt="Angular" class="me-2" style="width: 24px; height: 24px;">
+        <span>Angular</span>
+      </span>
+      <span class="badge badge-pulse bg-gray d-flex align-items-center p-2 shadow-sm"
+            data-bs-toggle="tooltip" data-bs-placement="top" title="30%">
+        <img src="/img/skills/react.png" alt="React" class="me-2" style="width: 24px; height: 24px;">
+        <span>React</span>
+      </span>
+      <span class="badge badge-pulse bg-gray d-flex align-items-center p-2 shadow-sm"
+            data-bs-toggle="tooltip" data-bs-placement="top" title="30%">
+        <img src="/img/skills/html-5.png" alt="html" class="me-2" style="width: 24px; height: 24px;">
+        <span>HTML</span>
+      </span>
+      <span class="badge badge-pulse bg-gray d-flex align-items-center p-2 shadow-sm"
+            data-bs-toggle="tooltip" data-bs-placement="top" title="30%">
+        <img src="/img/skills/css-3.png" alt="css" class="me-2" style="width: 24px; height: 24px;">
+        <span>CSS</span>
+      </span>
+      <span class="badge badge-pulse bg-gray d-flex align-items-center p-2 shadow-sm"
+            data-bs-toggle="tooltip" data-bs-placement="top" title="30%">
+        <img src="/img/skills/bootstrap.png" alt="boostratp" class="me-2" style="width: 24px; height: 24px;">
+        <span>Bootstrapt</span>
+      </span>
+      <span class="badge badge-pulse bg-gray d-flex align-items-center p-2 shadow-sm"
+            data-bs-toggle="tooltip" data-bs-placement="top" title="30%">
+        <img src="/img/skills/typescript.png" alt="typescript" class="me-2" style="width: 24px; height: 24px;">
+        <span>Typescript</span>
+      </span>
+    </div>
+  </div>
+  <br/>
+  <div class="row">
+    <h5>{{ 'SKILLS.BACKEND' | translate }}</h5>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item bg-transparent">ASP.NET C#, VB</li>
+      <li class="list-group-item bg-transparent">Web Services (REST)</li>
+      <li class="list-group-item bg-transparent">MVC, Net Core</li>
+      <li class="list-group-item bg-transparent">Node</li>
+    </ul>
+  </div>
+  <div class="row">
+    <h5>{{ 'SKILLS.OTHERS' | translate }}</h5>
+    <!-- <ul class="list-group list-group-flush">
+      <li class="list-group-item bg-transparent">Bases de Datos: SQL Server, Oracle, MySQL</li>
+      <li class="list-group-item bg-transparent">Cloud: Azure , AWS</li>
+      <li class="list-group-item bg-transparent">Managment Version: GIT, SVN, TFS, Postman</li>
+      <li class="list-group-item bg-transparent">DevOps: Docker, Kubernetes, CI/CD</li>
+    </ul> -->
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item bg-transparent" *ngFor="let item of othersList">{{ item }}</li>
+    </ul>
+  </div>
+  <br />
+  <div class="row">
+    <h5>{{ 'SKILLS.PERSONAL' | translate }}</h5>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item bg-transparent" *ngFor="let item of personalList">{{ item }}</li>
+    </ul>
+  </div>
+</section>
+
+<section id="languages" class="container py-2">
+  <h3 class="text-primary">{{ 'LANGUAGES.TITLE' | translate }}</h3>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item bg-gray">{{ 'LANGUAGES.SPANISH' | translate }}</li>
+    <li class="list-group-item bg-gray">{{ 'LANGUAGES.ENGLISH' | translate }}</li>
+  </ul>
+</section>
+<section id="courses" class="container py-2">
+  <h3 class="text-primary">{{ 'COURSES.TITLE' | translate }}</h3>
+  <ul class="list-group list-group-flush cursos-lista">
+    <li class="list-group-item">PL-SQL Oracle - Udemy 2024</li>
+    <li class="list-group-item">GIT & GitHub - Udemy 2024</li>
+    <li class="list-group-item">WEB API .NET - Udemy 2024</li>
+    <li class="list-group-item">Scrum Fundamentals ID 924314</li>
+    <li class="list-group-item">HTML5, CSS3, jQuery, C# - Auribox 2016</li>
+  </ul>
+</section>
+<section id="interests" class="container py-4">
+  <h3 class="text-primary mb-4">{{ 'INTERESTS.TITLE' | translate }}</h3>
+
+  <div class="row text-center g-3">
+    <div class="col-6 col-md-3">
+      <div class="p-3 interest-item">
+        <i class="bi bi-airplane-fill fs-2 text-info d-block mb-2"></i>
+        <p class="mb-0">{{ 'INTERESTS.TRAVEL' | translate }}</p>
+      </div>
+    </div>
+    <div class="col-6 col-md-3">
+      <div class="p-3 interest-item">
+        <i class="bi bi-bicycle fs-2 text-success d-block mb-2"></i>
+        <p class="mb-0">{{ 'INTERESTS.SPORT' | translate }}</p>
+      </div>
+    </div>
+    <div class="col-6 col-md-3">
+      <div class="p-3 interest-item">
+        <i class="bi bi-tree fs-2 text-primary d-block mb-2"></i>
+        <p class="mb-0">{{ 'INTERESTS.HIKING' | translate }}</p>
+      </div>
+    </div>
+    <div class="col-6 col-md-3">
+      <div class="p-3 interest-item">
+        <i class="bi bi-vinyl-fill fs-2 text-danger d-block mb-2"></i>
+        <p class="mb-0">{{ 'INTERESTS.DJ' | translate }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+

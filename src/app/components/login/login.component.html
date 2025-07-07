@@ -1,0 +1,19 @@
+<div class="modal-header">
+  <h5 class="modal-title" id="loginModalLabel">Iniciar sesión</h5>
+  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+  <form (ngSubmit)="login()" #loginForm="ngForm">
+    <div class="mb-3">
+      <label>Usuario</label>
+      <input type="text" class="form-control" [(ngModel)]="username" name="username" required />
+    </div>
+    <div class="mb-3">
+      <label>Contraseña</label>
+      <input type="password" class="form-control" [(ngModel)]="password" name="password" required />
+    </div>
+    <button type="submit" class="btn btn-primary w-100">Iniciar sesión</button>
+  </form>
+</div>
+
+

@@ -1,0 +1,76 @@
+  <header class="bg-primary text-white py-4">
+    <div class="container">
+      <div class="d-flex flex-column flex-md-row align-items-center justify-content-between" style="max-width: 1000px; margin: 0 auto;">
+
+        <!-- Datos -->
+        <div class="flex-grow-1 me-md-4 text-center text-md-start">
+          <h1 class="fw-bold mb-0">{{ 'HEADER.NAME' | translate }}</h1>
+          <p class="mb-0 text-white">
+            <img src="/img/Flag_of_Mexico.png" alt="México"
+                 style="width: 20px; height: 14px; object-fit: cover; border-radius: 2px; margin-right: 6px;">
+            {{ 'HEADER.PROFESSION' | translate }}
+          </p>
+          <br />
+          <p class="mb-0 text-white">{{ 'HEADER.LICENSE' | translate }}</p>
+
+          <nav class="mt-4 no-print">
+            <a class="text-white me-3" href="#about">{{ 'HEADER.MENU.ABOUT' | translate }}</a>
+            <a class="text-white me-3" href="#skills">{{ 'HEADER.MENU.SKILLS' | translate }}</a>
+            <a class="text-white me-3" href="#projects">{{ 'HEADER.MENU.PROJECTS' | translate }}</a>
+            <a class="text-white me-3" href="#contact">{{ 'HEADER.MENU.CONTACT' | translate }}</a>
+            <a class="text-white me-3" href="#" data-bs-toggle="modal" data-bs-target="#loginModal">
+              {{ 'HEADER.MENU.LOGIN' | translate }}
+            </a>
+          </nav>
+
+          <button *ngIf="isLoggedIn" (click)="logout()" class="btn btn-danger ms-2 no-print">
+            {{ 'HEADER.MENU.LOGOUT' | translate }}
+          </button>
+        </div>
+
+        <!-- Imagen -->
+        <div class="text-center mt-4 mt-md-0">
+          <img src="/img/Profile.png" alt="Adrián Zavaleta"
+              style="width: 120px; height: 150px; object-fit: cover; border-radius: 15px; border: 3px solid #ffffff;">
+
+          <!-- Link QR -->
+          <div class="mt-2">
+            <a class="text-white me-3" href="#" (click)="switchLanguage()">
+              {{ switchLabel }}
+            </a>
+            <a href="#" class="text-white text-decoration-underline no-print"
+              data-bs-toggle="modal" data-bs-target="#qrModal">{{ 'HEADER.QR_CODE' | translate }}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <app-login></app-login>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="qrModal" tabindex="-1" aria-labelledby="qrModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content bg-dark text-white text-center p-3">
+        <div class="modal-header border-0">
+          <h5 class="modal-title" id="qrModalLabel">{{ 'HEADER.QR_CODE2' | translate }}</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <img *ngIf="dataUrl" [src]="dataUrl" alt="QR Code"><br />
+          <button *ngIf="dataUrl" (click)="downloadQRCode()" class="btn btn-primary mt-2">{{ 'HEADER.QR_CODE3' | translate }}</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
