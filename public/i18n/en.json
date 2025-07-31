@@ -19,11 +19,11 @@
   },
   "ABOUT": {
     "TITLE": "About Me",
-    "DESCRIPTION": "Web developer with over 10 years of experience in .NET, C#, VB, HTML, CSS, JavaScript, and jQuery. Passionate about delivering high-quality software and constantly learning new technologies. Looking for an opportunity to develop skills and advance my career. Currently learning Angular, React, AWS, and Azure, and pursuing a master's degree in DevOps and Cloud."
+    "DESCRIPTION": "Web developer with experience in .NET, C#, VB, HTML, CSS, JavaScript, and jQuery. Passionate about delivering high-quality software and constantly learning new technologies. Looking for an opportunity to develop skills and advance my career. Currently learning Angular, React, AWS, and Azure, and pursuing a master's degree in DevOps and Cloud."
   },
   "EDUCATION": {
     "TITLE": "Education",
-    "MASTER": "📚 Master's in DevOps and Cloud",
+    "MASTER": "📚 Master's in Software Development and Operations",
     "UNIR": "UNIR Mexico (2024 - In progress)",
     "ENGINEERING": "🎓 Computer Systems Engineering",
     "ITSPR": "ITSPR (2006 - 2011)"
@@ -32,13 +32,16 @@
     "TITLE": "Skills",
     "FRONTEND": "Front-End",
     "BACKEND": "Back-End",
-    "OTHERS": "Various",
+    "OTHERS": "Basic level",
     "PERSONAL": "Personal",
     "BACKEND_LIST": [
       "ASP.NET C#, VB",
       "Web Services (REST)",
       "MVC, Net Core",
       "NodeJS"
+    ],
+    "SOFTWARE": [
+      ""
     ],
     "OTHERS_LIST": [
       "Databases: SQL Server, Oracle, MySQL",

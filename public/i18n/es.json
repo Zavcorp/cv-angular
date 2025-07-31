@@ -19,11 +19,11 @@
   },
   "ABOUT": {
     "TITLE": "Sobre mí",
-    "DESCRIPTION": "Desarrollador web con más de 10 años de experiencia en .NET, C#, VB, HTML, CSS, JavaScript y jQuery. Apasionado por entregar software de alta calidad y aprender constantemente nuevas tecnologías. Buscando una oportunidad para desarrollar habilidades y progresar en mi carrera. Actualmente aprendiendo Angular, React, AWS y Azure, cursando una maestría en DevOps y Cloud."
+    "DESCRIPTION": "Desarrollador web con experiencia en .NET, C#, VB, HTML, CSS, JavaScript y jQuery. Apasionado por entregar software de alta calidad y aprender constantemente nuevas tecnologías. Buscando una oportunidad para desarrollar habilidades y progresar en mi carrera. Actualmente aprendiendo Angular, React, AWS y Azure, cursando una maestría en DevOps y Cloud."
   },
   "EDUCATION": {
     "TITLE": "Formación",
-    "MASTER": "📚 Maestría en DevOps y Cloud",
+    "MASTER": "📚 Maestría en Desarrollo y Operaciones de Software",
     "UNIR": "UNIR México (2024 - Cursando)",
     "ENGINEERING": "🎓 Ingeniería en Sistemas Computacionales",
     "ITSPR": "ITSPR (2006 - 2011)"
@@ -32,7 +32,7 @@
     "TITLE": "Habilidades",
     "FRONTEND": "Front-End",
     "BACKEND": "Back-End",
-    "OTHERS": "Diversos",
+    "OTHERS": "Nivel Básico",
     "PERSONAL": "Personales",
     "BACKEND_LIST": [
       "ASP.NET C#, VB",
