@@ -79,19 +79,19 @@
     "TITLE": "Experiencia Profesional",
     "WORK_3": {
       "TITLE": "Support Engineer - SYE Software México",
-      "PERIOD": "2023 - Actualidad",
+      "PERIOD": "Ene 2023 - Actualidad",
       "DESCRIPTION": "Soporte y migración de aplicaciones web C# NET a nuevas tecnologías como Angular, NET Core MVC, así como mejoramiento de sitios web utilizando HTML5, CSS3, ES6, Bootstrap. En este tiempo se han logrado mejoras y optimizaciones importantes en procesos y diseños web que benefician al cliente en diversas aplicaciones.",
       "TOOLS": "Herramientas"
     },
     "WORK_2": {
       "TITLE": "Software Engineer - Softtek México",
-      "PERIOD": "2018 - 2022",
+      "PERIOD": "Jul 2018 - Dic 2022",
       "DESCRIPTION": "Desarrollo de aplicaciones web utilizando C#, WebServices, JavaScript, ES6 LINQ, jQuery y Base de datos en Oracle 11 g, soporte a aplicativos NET 3.5 e inferiores y migraciones a frameworks superiores acorde a los requerimientos y necesidades, así como creación de servicios REST API NET.",
       "TOOLS": "Herramientas"
     },
     "WORK_1": {
       "TITLE": ".NET Developer - PEMEX",
-      "PERIOD": "2012 - 2018",
+      "PERIOD": "Ago 2012 -  Jun 2018",
       "DESCRIPTION": "Desarrollo de nuevos módulos y mantenimiento de plataforma web creada para el control de diversos procesos en las gerencias y coordinaciones de PEMEX. Durante este tiempo se lograron importantes avances en la actualización de la plataforma acorde a nuevas tecnologías emergentes (HTML 5 CSS 3 Bootstrap, JavaScript, etc. Análisis y desarrollo web en tecnologías NET (ASP NET, Webforms, VBasic, C#, Capas, MVC) y base de datos SQL Server, donde se diseñó desde cero una plataforma web para el control de contratos, procesos y diversas actividades en las coordinaciones de PEMEX. A lo largo de este tiempo se fueron creando módulos específicos acorde a las necesidades de las áreas administrativas y de procesos, logrando importantes avances en optimización de tiempos, además de que la interfaz fue teniendo cambios acordes a las tecnologías salientes.",
       "TOOLS": "Herramientas"
     }

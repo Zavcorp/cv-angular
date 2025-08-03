@@ -82,19 +82,19 @@
     "TITLE": "Profesional Experience",
     "WORK_3": {
       "TITLE": "Support Engineer - SYE Software México",
-      "PERIOD": "2023 - Actually",
+      "PERIOD": "Jan 2023 - Actually",
       "DESCRIPTION": "Support and migration of C # NET web applications to new technologies such as Angular, NET Core MVC, as well as website improvement using HTML5, CSS3, ES6, Bootstrap. During this time, significant improvements and optimizations have been achieved in processes and web designs that benefit the client in various applications.",
       "TOOLS": "Tools"
     },
     "WORK_2": {
       "TITLE": "Software Engineer - Softtek México",
-      "PERIOD": "2018 - 2022",
+      "PERIOD": "Jul 2018 - Dic 2022",
       "DESCRIPTION": "Development of web applications using C #, WebServices, JavaScript, ES6 LINQ, jQuery and Database in Oracle 11 g, support for NET 3.5 and lower applications and migrations to higher frameworks according to requirements and needs, as well as creation of REST API services NET.",
       "TOOLS": "Tools"
     },
     "WORK_1": {
       "TITLE": ".NET Developer - PEMEX",
-      "PERIOD": "2012 - 2018",
+      "PERIOD": "Ago 2012 - Jun 2018",
       "DESCRIPTION": "Development of new modules and maintenance of a web platform created to control various processes in PEMEX's management and coordination departments. During this time, significant progress was made in updating the platform to accommodate new emerging technologies (HTML 5, CSS 3, Bootstrap, JavaScript, etc.). Web analysis and development in .NET technologies (ASP.NET, Webforms, VBasic, C#, Layers, MVC) and SQL Server databases. A web platform was designed from scratch to control contracts, processes, and various activities in PEMEX's coordination departments. Over this time, specific modules were created according to the needs of the administrative and process areas, achieving significant progress in time optimization. The interface was also subject to changes in line with emerging technologies.",
       "TOOLS": "Tools"
     }
