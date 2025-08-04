@@ -7,6 +7,7 @@ import { SkillsComponent } from "./components/skills/skills.component";
 import { ContactComponent } from "./components/contact/contact.component";
 import { ProjectsComponent } from './components/projects/projects.component';
 import { PdfExportComponent } from "./components/pdf-export/pdf-export.component";
+import { ContadorComponent } from "./components/contador/contador.component";
 import { AuthService } from './services/auth.service';
 import { TranslateService } from '@ngx-translate/core';
 import Swal from 'sweetalert2';
@@ -20,7 +21,8 @@ import Swal from 'sweetalert2';
     SkillsComponent,
     ContactComponent,
     ProjectsComponent,
-    PdfExportComponent
+    PdfExportComponent,
+    ContadorComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
